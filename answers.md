@@ -40,7 +40,7 @@ Place all written answers from `problemset-03.md` here for easier grading.
     - Span:  
         $\qquad S(n) = \max\{S(n/3), S(2n/3)\} + 1 \\ 
         \qquad \quad \quad= S(2n/3) + 1$  
-        The recursion depth $d$ satisfies $(2/3)^d\, n \le 1$, hence $d = \log_{3/2} n$.  
+        The recursion depth $d$ satisfies $(2/3)^d \cdot n \le 1$, hence $d = \log_{3/2} n$.  
         Therefore, $S(n) = O(\log n)$.  
 
 - **2a.**
