@@ -104,9 +104,9 @@ Place all written answers from `problemset-03.md` here for easier grading.
 
 - **2c.**
     - For 2*a* (single-list dedup, preserve order):
-        - *iterate*: Useful. Carry state (seen, result) left-to-right to emit first occurrences only.
+        - *iterate*: No advantegeous as we need to preserve the order.
         - *reduce*: Possible but not advantageous for span when preserving global order. Here, the merge must be sequential to keep first-appearance order.
-        - *map/filter/scan*: Not sufficient by themselves to use here.
+        - *map/filter/scan*: Not useful to use.
 
     - For 2*b* (multi-list dedup, order not required):
         - *map*: Useful to turn each list $A_i$ into a local set of uniques in parallel.
